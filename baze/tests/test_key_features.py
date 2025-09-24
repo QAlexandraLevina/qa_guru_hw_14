@@ -1,6 +1,7 @@
 from baze.pages.key_features import KeyFeatures
 import allure
 
+
 def test_key_features(setup_browser, open_base_page):
     browser = setup_browser
 
@@ -8,7 +9,7 @@ def test_key_features(setup_browser, open_base_page):
     key_features = KeyFeatures()
 
 
-    """Выполнение шагов и проверок"""
+    allure.title("Скролл до блока 'Ключевые особенности' и проверка блока")
     with allure.step("Скролл до раздела 'Ключевые особенности'"):
         browser.execute_script("arguments[0].scrollIntoView();", key_features.key_feature_title.locate())
 

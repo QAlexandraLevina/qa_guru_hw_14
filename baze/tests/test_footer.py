@@ -9,7 +9,7 @@ def test_footer(setup_browser, open_base_page):
     footer = Footer()
 
 
-    """Выполнение шагов и проверок"""
+    allure.title("Скролл до блока футера и проверка футера")
     with allure.step("Скролл до футера"):
         browser.execute_script("arguments[0].scrollIntoView();", footer.bottom_footer_info.locate())
 

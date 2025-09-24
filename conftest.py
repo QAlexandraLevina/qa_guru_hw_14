@@ -91,7 +91,7 @@ def user_authorized():
         "Password123."
     )
 
-@allure.step("Открытие главной страницы в браузере")
+@allure.title("Открытие главной страницы в браузере")
 def open_base_page_step():
     browser.open("/")
 

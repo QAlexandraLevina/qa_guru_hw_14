@@ -5,12 +5,11 @@ from baze.pages.start_game import StartGame
 def test_start_game(setup_browser, open_base_page):
     # browser = setup_browser
 
-
     """Инициализация экземпляра класса StartGame"""
     start_game = StartGame()
 
 
-    """Выполнение шагов и проверок"""
+    allure.title("Проверка блока 'Как начать играть' при нажатии на кнопку 'Начать игру'")
     with allure.step("Нажатие на кнопку 'Начать игру'"):
         start_game.click_button_play_game()
 
