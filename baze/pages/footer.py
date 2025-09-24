@@ -10,7 +10,7 @@ class Footer:
         self.bottom_footer_payments = browser.element(".payment-methods")
         self.vkontakte_link = browser.element("li a[href='https://vk.com/rpbaze']")
         self.telegram_link = browser.element("li a[href='https://t.me/bazerp")
-        self.discord_link = browser.element("li a[href='https://discord.com/channels/470680918408036362/1148223367078490162")
+        self.discord_link = browser.element("li a[href='https://discord.com/invite/baze")
         self.youtube_link = browser.element("li a[href='https://www.youtube.com/@Baze_RP")
         self.user_agreement_link = browser.element("a[href='/user-agreement']")
         self.privacy_policy_link = browser.element("a[href='/privacy-policy']")

@@ -79,7 +79,7 @@ class StartGame:
         self.subtitle_tabs.should(have.text("Купите и установите лицензионную GTA 5"))
         self.description_tabs.should(have.text("Лицензионную GTA 5 можно купить в Steam, Epic Games или на других площадках цифровой дистрибуции"))
         self.steam_link.should(be.visible).should(have.text("STEAM")).should(be.clickable)
-        self.epic_games_link.should(be.visible).should(have.text("Epic games")).should(be.clickable)
+        self.epic_games_link.should(be.visible).should(have.text("EPIC GAMES")).should(be.clickable)
         self.rockstar_games_link.should(be.visible).should(have.text("rockstar games")).should(be.clickable)
         return self
 
