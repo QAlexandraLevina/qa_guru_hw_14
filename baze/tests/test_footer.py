@@ -5,11 +5,10 @@ from baze.pages.footer import Footer
 def test_footer(setup_browser, open_base_page):
     browser = setup_browser
 
-    """Инициализация экземпляра класса Footer"""
+    allure.title("Скролл до блока футера и проверка футера")
     footer = Footer()
 
 
-    allure.title("Скролл до блока футера и проверка футера")
     with allure.step("Скролл до футера"):
         browser.execute_script("arguments[0].scrollIntoView();", footer.bottom_footer_info.locate())
 

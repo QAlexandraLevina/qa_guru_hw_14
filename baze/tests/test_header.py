@@ -8,10 +8,9 @@ from baze.pages.header import Header
 def test_header_unauthorized_user(setup_browser, open_base_page):
     # browser = setup_browser
 
-    """Инициализация экземпляра класса Header"""
+    allure.title("Проверка элементов хедера и переход по каждой вкладке")
     header = Header()
 
-    allure.title("Проверка элементов хедера и переход по каждой вкладке")
     with allure.step("Проверка отображения элементов хедера неавторизованным пользователем"):
         header.should_have_menu_items_unauthorized()
 
@@ -23,11 +22,12 @@ def test_header_unauthorized_user(setup_browser, open_base_page):
 def test_header_authorized_user(setup_browser, authenticated_user):
     # browser = setup_browser
 
-    """Инициализация экземпляра класса Header"""
-    header = Header()
-
     allure.title("Проверка авторизованного пользователя")
-    AuthorizationForm.should_authorized_profile(authenticated_user)
+    header = Header()
+    auth_form = AuthorizationForm()
+
+
+    auth_form.should_authorized_profile()
 
     allure.title("Проверка элементов хедера и переход по каждой вкладке")
     with allure.step("Проверка отображения элементов хедера авторизованным пользователем"):

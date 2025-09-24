@@ -89,7 +89,7 @@ class StartGame:
         self.description_tabs.should(be.visible)
         self.subtitle_tabs.should(have.text("Установите Rage Multiplayer"))
         self.description_tabs.should(have.text("Загрузите официальный лаунчер Rage. По окончании загрузки произведите установку лаунчера в место, не включающее файлы игры"))
-        self.rage_mp_link.should(be.visible).should(have.text("скачать лаунчер")).should(be.clickable)
+        self.rage_mp_link.should(be.visible).should(have.text("СКАЧАТЬ ЛАУНЧЕР")).should(be.clickable)
         return self
 
 
@@ -98,5 +98,5 @@ class StartGame:
         self.description_tabs.should(be.visible)
         self.subtitle_tabs.should(have.text("Запустите лаунчер и подключайтесь"))
         self.description_tabs.should(have.text("Запустите лаунчер и в открывшемся окне введите IP адрес выбранного сервера"))
-        self.copy_ip.element_by(have.text("Скопировать IP")).should(be.clickable)
+        self.copy_ip.element_by(have.text("СКОПИРОВАТЬ IP")).should(be.clickable)
         return self
