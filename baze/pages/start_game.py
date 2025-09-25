@@ -3,7 +3,7 @@ from selene import browser, be, have
 
 class StartGame:
     def __init__(self):
-        self.button_play_game = browser.element(".about-buttons__button-wrapper")
+        self.button_play_game = browser.element(".about-buttons__button")
         self.start_game_title = browser.element(".start-game__header-title")
         self.start_game_tabs = browser.all(".start-game__step")
         self.subtitle_tabs = browser.element(".start-game-slide__title")
