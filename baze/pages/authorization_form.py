@@ -10,7 +10,7 @@ class AuthorizationForm:
         self.field_password = browser.element("input[name='password']")
         self.check_box_remember_me = browser.element(".ui-checkbox__box")
         self.authorized_profile = browser.element(".header__menu-item--profile")
-        self.text_user_points = browser.element(".account-data__user-points-title")
+        self.text_user_points = browser.element("h4.account-data__user-points-title")
 
 
     def click_personal_account_tab(self):
@@ -44,7 +44,7 @@ class AuthorizationForm:
 
     """Проверка авторизации после заполнения полей"""
     def should_authorized_profile(self):
-        self.text_user_points.should(have.text("очки персонажа"))
+        self.text_user_points.should(have.text("ОЧКИ ПЕРСОНАЖА"))
         browser.should(have.url_containing("/account"))  # Проверка, что после авторизации происходит редирект на /account
         return self
 
