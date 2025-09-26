@@ -44,7 +44,7 @@ class AuthorizationForm:
 
     """Проверка авторизации после заполнения полей"""
     def should_authorized_profile(self):
-        self.text_user_points.should(have.text("ОЧКИ ПЕРСОНАЖА"))
+        self.text_user_points.should(have.text("очки персонажа"))
         browser.should(have.url_containing("/account"))  # Проверка, что после авторизации происходит редирект на /account
         return self
 
