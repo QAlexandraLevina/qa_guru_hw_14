@@ -87,8 +87,8 @@ def setup_browser(request):
 @pytest.fixture
 def user_authorized():
     return UserData(
-        "alexandralevina@gmail.com",
-        "Password123."
+        os.getenv('TEST_USER_EMAIL_BAZE_AUTHORIZATION'),
+        os.getenv('TEST_USER_PASSWORD_BAZE_AUTHORIZATION')
     )
 
 @allure.title("Открытие главной страницы в браузере")
