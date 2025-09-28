@@ -12,13 +12,21 @@
 
 ---
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg' width="100" height="100"/>
+
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg' width="100" height="100"/>
+
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original-wordmark.svg' width="100" height="100"/>
+
 <img src='https://img.icons8.com/stickers/100/selenium-test-automation.png' width="100" height="100"/>
+
 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg' width="100" height="100"/>
+
 <img src='https://avatars.githubusercontent.com/u/5879127?s=200&v=4' width="100" height="100"/>
+
 <img src='icons_and_img/Allure_Report.svg' width="100" height="100"/>
+
 <img src='icons_and_img/Selenoid.svg' width="100" height="100"/>
+
 <img src='https://img.icons8.com/color/144/telegram-app--v1.png' width="100" height="100"/>
 
 ---
@@ -64,21 +72,21 @@
 **1.** Авторизоваться в '[Jenkins](https://jenkins.autotests.cloud/)'.
 
 **2.** Перейти в Джобу: `test_jenkins_qa_guru_homework_14`.
-<img src='icons_and_img/search_job.png' width="700" height="500"/>
+<img src='icons_and_img/search_job.png' width="800" height="700"/>
 
 **3.** Нажать 'Build with Parameters' на панели слева для запуска тестов.
-<img src='icons_and_img/build_now.png' width="700" height="500"/>
+<img src='icons_and_img/build_now.png' width="800" height="700"/>
 
 **4.** После завершения сборки открыть Allure-отчёт, кликнув на соответствующую иконку:
 <img src='icons_and_img/Allure_Report.svg' width="20" height="20"/>
-<img src='icons_and_img/report_icon.png' width="700" height="500"/>
+<img src='icons_and_img/report_icon.png' width="800" height="700"/>
 
 ---
 ### 📊 Визуализация отчётов с результатами (Allure Report, Telegram)
 
 ---
 #### **Allure Report**
-<img src='icons_and_img/allure_report_page.png' width="700" height="500"/>
+<img src='icons_and_img/allure_report_page.png' width="800" height="700"/>
 
 #### **Telegram Notifications**
 <img src='icons_and_img/telegram_notification.png' width="350" height="300"/>
