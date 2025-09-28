@@ -11,15 +11,7 @@
 ## 🛠️ Технологии и инструменты
 
 ---
-<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg' width="70" height="70"/>
-<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg' width="70" height="70"/>
-<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original-wordmark.svg' width="70" height="70"/>
-<img src='https://img.icons8.com/stickers/100/selenium-test-automation.png' width="70" height="70"/>
-<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg' width="70" height="70"/>
-<img src='https://avatars.githubusercontent.com/u/5879127?s=200&v=4' width="70" height="70"/>
-<img src='icons_and_img/Allure_Report.svg' width="70" height="70"/>
-<img src='icons_and_img/Selenoid.svg' width="70" height="70"/>
-<img src='https://img.icons8.com/color/144/telegram-app--v1.png' width="70" height="70"/>
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg' width="70" height="70"/> <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg' width="70" height="70"/> <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original-wordmark.svg' width="70" height="70"/> <img src='https://img.icons8.com/stickers/100/selenium-test-automation.png' width="70" height="70"/> <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg' width="70" height="70"/> <img src='https://avatars.githubusercontent.com/u/5879127?s=200&v=4' width="70" height="70"/> <img src='icons_and_img/Allure_Report.svg' width="70" height="70"/> <img src='icons_and_img/Selenoid.svg' width="70" height="70"/> <img src='https://img.icons8.com/color/144/telegram-app--v1.png' width="70" height="70"/>
 
 ---
 ## 🔍 Область тестирования
