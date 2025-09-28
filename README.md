@@ -11,23 +11,15 @@
 ## 🛠️ Технологии и инструменты
 
 ---
-<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg' width="100" height="100"/>
-
-<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg' width="100" height="100"/>
-
-<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original-wordmark.svg' width="100" height="100"/>
-
-<img src='https://img.icons8.com/stickers/100/selenium-test-automation.png' width="100" height="100"/>
-
-<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg' width="100" height="100"/>
-
-<img src='https://avatars.githubusercontent.com/u/5879127?s=200&v=4' width="100" height="100"/>
-
-<img src='icons_and_img/Allure_Report.svg' width="100" height="100"/>
-
-<img src='icons_and_img/Selenoid.svg' width="100" height="100"/>
-
-<img src='https://img.icons8.com/color/144/telegram-app--v1.png' width="100" height="100"/>
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg' width="90" height="90"/>
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg' width="90" height="90"/>
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytest/pytest-original-wordmark.svg' width="90" height="90"/>
+<img src='https://img.icons8.com/stickers/100/selenium-test-automation.png' width="90" height="90"/>
+<img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg' width="90" height="90"/>
+<img src='https://avatars.githubusercontent.com/u/5879127?s=200&v=4' width="90" height="90"/>
+<img src='icons_and_img/Allure_Report.svg' width="90" height="90"/>
+<img src='icons_and_img/Selenoid.svg' width="90" height="90"/>
+<img src='https://img.icons8.com/color/144/telegram-app--v1.png' width="90" height="90"/>
 
 ---
 ## 🔍 Область тестирования
@@ -72,21 +64,21 @@
 **1.** Авторизоваться в '[Jenkins](https://jenkins.autotests.cloud/)'.
 
 **2.** Перейти в Джобу: `test_jenkins_qa_guru_homework_14`.
-<img src='icons_and_img/search_job.png' width="800" height="700"/>
+<img src='icons_and_img/search_job.png' width="900" height="800"/>
 
 **3.** Нажать 'Build with Parameters' на панели слева для запуска тестов.
-<img src='icons_and_img/build_now.png' width="800" height="700"/>
+<img src='icons_and_img/build_now.png' width="900" height="800"/>
 
 **4.** После завершения сборки открыть Allure-отчёт, кликнув на соответствующую иконку:
 <img src='icons_and_img/Allure_Report.svg' width="20" height="20"/>
-<img src='icons_and_img/report_icon.png' width="800" height="700"/>
+<img src='icons_and_img/report_icon.png' width="900" height="800"/>
 
 ---
 ### 📊 Визуализация отчётов с результатами (Allure Report, Telegram)
 
 ---
 #### **Allure Report**
-<img src='icons_and_img/allure_report_page.png' width="800" height="700"/>
+<img src='icons_and_img/allure_report_page.png' width="900" height="800"/>
 
 #### **Telegram Notifications**
 <img src='icons_and_img/telegram_notification.png' width="350" height="300"/>
