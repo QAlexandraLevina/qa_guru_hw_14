@@ -64,21 +64,21 @@
 **1.** Авторизоваться в '[Jenkins](https://jenkins.autotests.cloud/)'.
 
 **2.** Перейти в Джобу: `test_jenkins_qa_guru_homework_14`.
-<img src='icons_and_img/search_job.png' width="600" height="300"/>
+<img src='icons_and_img/search_job.png' width="700" height="500"/>
 
 **3.** Нажать 'Build with Parameters' на панели слева для запуска тестов.
-<img src='icons_and_img/build_now.png' width="600" height="300"/>
+<img src='icons_and_img/build_now.png' width="700" height="500"/>
 
 **4.** После завершения сборки открыть Allure-отчёт, кликнув на соответствующую иконку:
 <img src='icons_and_img/Allure_Report.svg' width="20" height="20"/>
-<img src='icons_and_img/report_icon.png' width="600" height="300"/>
+<img src='icons_and_img/report_icon.png' width="700" height="500"/>
 
 ---
 ### 📊 Визуализация отчётов с результатами (Allure Report, Telegram)
 
 ---
 #### **Allure Report**
-<img src='icons_and_img/allure_report_page.png' width="600" height="300"/>
+<img src='icons_and_img/allure_report_page.png' width="700" height="500"/>
 
 #### **Telegram Notifications**
 <img src='icons_and_img/telegram_notification.png' width="350" height="300"/>
